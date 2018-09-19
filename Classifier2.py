@@ -1,6 +1,8 @@
 import numpy
 import matplotlib.pyplot as plt
 from keras.datasets import mnist
+from keras.models import Sequential
+#from keras.wrappers.scikit_learn.KerasClassifier import
 
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
 
@@ -14,3 +16,6 @@ from keras.datasets import mnist
 # plt.imshow(plotData)
 # plt.show()
 
+model = Sequential()
+
+model.add()
